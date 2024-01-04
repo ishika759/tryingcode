@@ -1,0 +1,75 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+
+    <script>
+
+//immutable
+      let car1="Audi";
+      let car2=car1;
+
+        document.write(car1);
+        document.write(car2);
+        document.write("<br>");
+        car2="BMW";
+        document.write(car1);
+        document.write(car2);
+
+//mutable
+
+    let my1={name:"audi"}    ;
+    let my2=my1;
+    document.write("<br>");
+    document.write(my1.name);
+    document.write("<br>");
+    document.write(my2.name);
+
+    my1.name="Suzuki";
+    document.write("<br>");
+    document.write(my1.name);
+    document.write("<br>");
+    document.write(my2.name);
+
+   let x;
+   let y=null;
+   document.write("<br>");
+   document.write(typeof x);
+   document.write("<br>");
+   document.write(typeof y);
+   document.write("<br>");
+
+  let z=10;
+  document.write(z>5?true:false);
+
+  let a=1;
+  while(a<4)
+  {
+    document.write(a+" ");
+    a++;
+
+  }
+
+
+  let m=2+3;
+  document.write("<br>");
+  document.write("value of m is",m);
+
+  let n=0.2+0.3;
+  document.write("<br>");
+  document.write("value of n is",n);
+
+
+  document.write("<br>");
+  
+
+
+
+    </script>
+
+
+
+    </body>
+</html>
